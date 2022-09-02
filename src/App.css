@@ -1,11 +1,52 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Arial', sans-serif;
+  transition: all 0.4s linear;
 }
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+.page>div{
+  display: flex;
+  height: 80px;
+  align-items: center;
+  background-color: rgb(73, 155, 155) ;
+  font-family:  'Arial', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+}
+.page>div>span{
+  padding-left: 50px;
+
+}
+.mainSec{
+  background-color: rgb(170, 165, 165);
+  height: 90vh;
+}
+.segmentButton{
+  margin-top: 50px;
+  margin-left: 100px;
+  color: white;
+  background-color: rgb(177, 172, 172);
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  width: 150px;
+  border: 2.5px solid white;
+  border-radius: 2px;
+  cursor:pointer;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
